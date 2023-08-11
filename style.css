@@ -1,0 +1,35 @@
+html{
+    background-color: #fffcfc;
+}
+.chessboard{
+   border: 30px solid rgb(60, 59, 59);
+   width:640px;
+   height: 640px;
+   margin:25px auto;
+   border-radius:25px;
+   display: center;
+   text-align: center;
+   font-size: 50px;
+   
+}
+.black{
+    background-color:rgb(255, 166, 0);
+    width: 80px;
+    height: 80px;
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+}
+.white{
+    background-color: #ffffe041;
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+.black:hover{
+    background-color:rgb(60, 239, 252);
+}
+.white:hover{
+    background-color:rgb(170, 170, 170);
+}
+
