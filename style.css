@@ -2,7 +2,7 @@ html{
     background-color: #fffcfc;
 }
 .chessboard{
-   border: 30px solid rgb(60, 59, 59);
+   border: 30px solid rgb(0, 0, 0);
    width:640px;
    height: 640px;
    margin:25px auto;
@@ -13,7 +13,7 @@ html{
    
 }
 .black{
-    background-color:rgb(255, 166, 0);
+    background-color:#ffa600;
     width: 80px;
     height: 80px;
     float: left;
@@ -21,7 +21,7 @@ html{
     vertical-align: middle;
 }
 .white{
-    background-color: #ffffe041;
+    background-color: rgb(255, 236, 200);
     width: 80px;
     height: 80px;
     float: left;
